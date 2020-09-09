@@ -1,0 +1,55 @@
+body{
+    background-color: #ecf0f1;
+    margin: 0 auto;
+    
+}
+
+.btn{
+    cursor: pointer;
+}
+
+body {
+ color: rgb(0, 0, 0);
+ 
+}
+
+.clicked {
+    color: #7f8c8d;
+}
+
+.form{
+    display: none;
+}
+
+.showing {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.bgImage{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    animation: fadeIn .5s linear;
+}
+h1{
+    font-size: 4rem;
+}
+.main{
+    text-align: center;
+    padding-top : 150px;
+}
+li{
+    list-style: none;
+}
